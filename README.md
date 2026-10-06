@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Full-stack developer building web apps with React, TypeScript, Django and Supabase.</b><br>
-  Applied ML and cybersecurity on the side. Based in Kerala, India.
+  Applied machine learning projects. Based in Kerala, India.
 </p>
 
 <p align="center">
