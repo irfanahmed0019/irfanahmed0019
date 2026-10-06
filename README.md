@@ -30,7 +30,7 @@ Online store with a product catalogue, size selection and a cart that sends orde
 A learning platform that takes beginners from theory to building real software, with an AI mentor that gives short hints. Won the Learning Impact Award at AI Conclave 2026.
 <br>`TypeScript` `React` `Supabase`
 
-<a href="https://github.com/irfanahmed0019/makemylogic_production"><img src="https://raw.githubusercontent.com/irfanahmed0019/makemylogic_production/main/docs/screenshots/buildmylogic-desktop.png" alt="BuildMyLogic" width="85%"></a>
+<a href="https://github.com/irfanahmed0019/makemylogic_production"><img src="https://github.com/user-attachments/assets/2d0d8ef5-4c36-4812-af2a-cf8308849ab8" alt="BuildMyLogic" width="85%"></a>
 
 ### [AI SOC Analyst](https://github.com/irfanahmed0019/sentinel-x-ai-soc-analyst)
 Security operations platform that uses ML models (Random Forest, Isolation Forest, XGBoost with SHAP explanations) to detect and explain network threats, with MITRE ATT&CK mapping, asset exposure scanning and Gemini-written analyst reports.
