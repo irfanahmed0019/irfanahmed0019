@@ -24,7 +24,7 @@
 | [BuildMyLogic](https://github.com/irfanahmed0019/makemylogic_production) | Learning platform that takes beginners from theory to building real software, with an AI mentor that gives short hints. Built in a 5-hour hackathon. [Live](https://buildmylogic.vercel.app) | TypeScript, React, Supabase |
 | [Portfolio](https://github.com/irfanahmed0019/irfan-portfolio) | My personal site, responsive on phones. [Live](https://irfan-portfolio-seven-delta.vercel.app/) | HTML, CSS, JavaScript |
 | [CodeAlpha E-Commerce Store](https://github.com/irfanahmed0019/CodeAlpha_SimpleEcommerceStore) | Django store with Google sign-in, cart, checkout and orders. [Live](https://codealpha-store.vercel.app) | Django, Python |
-| [Sentinel-X AI SOC Analyst](https://github.com/irfanahmed0019/sentinel-x-ai-soc-analyst) | AI assistant for security operations analysis | TypeScript |
+| [AI SOC Analyst](https://github.com/irfanahmed0019/sentinel-x-ai-soc-analyst) | SOC platform that uses ML models (Random Forest, Isolation Forest, XGBoost) to detect and explain network threats, with Gemini-written analyst reports | TypeScript, Python, scikit-learn |
 | [Phishing Email Detection](https://github.com/irfanahmed0019/phishing-email-detection-model) | Machine learning model that flags phishing emails | Python, scikit-learn |
 | [Secure RBAC Authentication](https://github.com/irfanahmed0019/secure-rbac-authentication-system) | Role-based access control and authentication system | Python |
 
