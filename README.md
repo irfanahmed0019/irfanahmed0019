@@ -44,6 +44,14 @@ Django store with Google sign-in, cart, checkout and order tracking.
 
 <a href="https://github.com/irfanahmed0019/CodeAlpha_SimpleEcommerceStore"><img src="https://raw.githubusercontent.com/irfanahmed0019/CodeAlpha_SimpleEcommerceStore/main/docs/screenshots/codealpha-desktop.png" alt="E-commerce store" width="85%"></a>
 
+### [Customer Churn Prediction (ML + API)](https://github.com/irfanahmed0019/churn-prediction-mlops)
+Compares logistic regression, random forest and gradient boosting with 5-fold cross-validation, then serves the best model through a tested FastAPI service with Docker and CI. Held-out test: ROC-AUC 0.929, PR-AUC 0.880, F1 0.847 on 1,000 customers.
+<br>`Python` `scikit-learn` `FastAPI` `Docker` `GitHub Actions`
+
+### [Retrieval Evaluation for RAG](https://github.com/irfanahmed0019/rag-retrieval-eval)
+Benchmarks BM25, dense embeddings (bge-small) and hybrid search on BEIR SciFact (5,183 abstracts, 300 labelled queries). Dense nDCG@10 0.722 vs BM25 0.652; plain rank fusion gave no extra gain. Includes bootstrap confidence intervals and a search API.
+<br>`Python` `Embeddings` `Information retrieval` `FastAPI`
+
 ### More work
 
 | Project | What it is | Stack |
