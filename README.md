@@ -20,6 +20,10 @@
 
 ## Featured projects
 
+### [Bizzag](https://github.com/irfanahmed0019/bizzag-engine) &nbsp;|&nbsp; [Live demo](https://bizzag.vercel.app/)
+Online store with a product catalogue, size selection and a cart that sends orders over WhatsApp. Built with React, TypeScript and Supabase, deployed on Vercel.
+<br>`React` `TypeScript` `TanStack Start` `Supabase`
+
 ### [BuildMyLogic](https://github.com/irfanahmed0019/makemylogic_production) &nbsp;|&nbsp; [Live demo](https://buildmylogic.vercel.app)
 A learning platform that takes beginners from theory to building real software, with an AI mentor that gives short hints. Won the Learning Impact Award at AI Conclave 2026.
 <br>`TypeScript` `React` `Supabase`
