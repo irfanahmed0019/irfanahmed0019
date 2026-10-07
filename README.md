@@ -52,6 +52,10 @@ Compares logistic regression, random forest and gradient boosting with 5-fold cr
 Benchmarks BM25, dense embeddings (bge-small) and hybrid search on BEIR SciFact (5,183 abstracts, 300 labelled queries). Dense nDCG@10 0.722 vs BM25 0.652; plain rank fusion gave no extra gain. Includes bootstrap confidence intervals and a search API.
 <br>`Python` `Embeddings` `Information retrieval` `FastAPI`
 
+### [Prompt-Injection Guardrail for LLM Apps](https://github.com/irfanahmed0019/prompt-injection-guardrail)
+Detects prompt-injection attempts before they reach an LLM. Compares TF-IDF models with 5-fold cross-validation, serves the best one through a tested FastAPI service with CI. Held-out test (116 prompts): F1 0.919, precision 1.00, recall 0.85, ROC-AUC 0.977. The README lists its limitations.
+<br>`Python` `scikit-learn` `FastAPI` `GitHub Actions`
+
 ### More work
 
 | Project | What it is | Stack |
