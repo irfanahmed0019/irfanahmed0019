@@ -1,8 +1,8 @@
 <h1 align="center">Irfan Ahammad J</h1>
 
 <p align="center">
-  <b>Full-stack developer building web apps with React, TypeScript, Django and Supabase.</b><br>
-  Applied machine learning projects. Based in Kerala, India.
+  <b>Machine learning, end to end: training, evaluation and serving models through FastAPI.</b><br>
+  Open to ML engineer and internship roles. Also full-stack with React, TypeScript and Django. Based in Kerala, India.
 </p>
 
 <p align="center">
@@ -13,12 +13,31 @@
 
 ## About
 
+- Open to ML engineer and ML internship roles (remote or Kerala)
 - Diploma student, Computer Hardware Engineering, Government Polytechnic College, Attingal
 - Intern at VLED Lab, IIT Ropar (remote, from July 2026)
 - CodeAlpha Full Stack Development Internship (July 2026), Django projects
 - Learning Impact Award, AI Conclave 2026 hackathon, for BuildMyLogic (built in 5 hours)
 
 ## Featured projects
+
+### [Customer Churn Prediction (ML + API)](https://github.com/irfanahmed0019/churn-prediction-mlops)
+Compares logistic regression, random forest and gradient boosting with 5-fold cross-validation, then serves the best model through a tested FastAPI service with Docker and CI. Held-out test: ROC-AUC 0.929, PR-AUC 0.880, F1 0.847 on 1,000 customers.
+<br>`Python` `scikit-learn` `FastAPI` `Docker` `GitHub Actions`
+
+### [Retrieval Evaluation for RAG](https://github.com/irfanahmed0019/rag-retrieval-eval)
+Benchmarks BM25, dense embeddings (bge-small) and hybrid search on BEIR SciFact (5,183 abstracts, 300 labelled queries). Dense nDCG@10 0.722 vs BM25 0.652; plain rank fusion gave no extra gain. Includes bootstrap confidence intervals and a search API.
+<br>`Python` `Embeddings` `Information retrieval` `FastAPI`
+
+### [Prompt Injection Detector for LLM Apps](https://github.com/irfanahmed0019/prompt-injection-detector)
+Detects prompt-injection attempts before they reach an LLM. Compares TF-IDF models with 5-fold cross-validation, serves the best one through a tested FastAPI service with CI. Held-out test (116 prompts): F1 0.919, precision 1.00, recall 0.85, ROC-AUC 0.977. The README lists its limitations.
+<br>`Python` `scikit-learn` `FastAPI` `GitHub Actions`
+
+### [AI SOC Analyst](https://github.com/irfanahmed0019/sentinel-x-ai-soc-analyst)
+Security operations platform that uses ML models (Random Forest, Isolation Forest, XGBoost with SHAP explanations) to detect and explain network threats, with MITRE ATT&CK mapping, asset exposure scanning and Gemini-written analyst reports.
+<br>`TypeScript` `Python` `scikit-learn`
+
+<a href="https://github.com/irfanahmed0019/sentinel-x-ai-soc-analyst"><img src="https://raw.githubusercontent.com/irfanahmed0019/sentinel-x-ai-soc-analyst/main/Screenshots/dashboard-overview.png" alt="AI SOC Analyst dashboard" width="85%"></a>
 
 ### [Bizzag](https://github.com/irfanahmed0019/bizzag-engine) &nbsp;|&nbsp; [Live demo](https://bizzag.vercel.app/)
 Online store with a product catalogue, size selection and a cart that sends orders over WhatsApp. Built with React, TypeScript and Supabase, deployed on Vercel.
@@ -32,29 +51,11 @@ A learning platform that takes beginners from theory to building real software, 
 
 <a href="https://github.com/irfanahmed0019/makemylogic_production"><img src="https://github.com/user-attachments/assets/2d0d8ef5-4c36-4812-af2a-cf8308849ab8" alt="BuildMyLogic" width="85%"></a>
 
-### [AI SOC Analyst](https://github.com/irfanahmed0019/sentinel-x-ai-soc-analyst)
-Security operations platform that uses ML models (Random Forest, Isolation Forest, XGBoost with SHAP explanations) to detect and explain network threats, with MITRE ATT&CK mapping, asset exposure scanning and Gemini-written analyst reports.
-<br>`TypeScript` `Python` `scikit-learn`
-
-<a href="https://github.com/irfanahmed0019/sentinel-x-ai-soc-analyst"><img src="https://raw.githubusercontent.com/irfanahmed0019/sentinel-x-ai-soc-analyst/main/Screenshots/dashboard-overview.png" alt="AI SOC Analyst dashboard" width="85%"></a>
-
 ### [E-Commerce Store (CodeAlpha)](https://github.com/irfanahmed0019/CodeAlpha_SimpleEcommerceStore) &nbsp;|&nbsp; [Live demo](https://codealpha-store.vercel.app)
 Django store with Google sign-in, cart, checkout and order tracking.
 <br>`Django` `Python`
 
 <a href="https://github.com/irfanahmed0019/CodeAlpha_SimpleEcommerceStore"><img src="https://raw.githubusercontent.com/irfanahmed0019/CodeAlpha_SimpleEcommerceStore/main/docs/screenshots/codealpha-desktop.png" alt="E-commerce store" width="85%"></a>
-
-### [Customer Churn Prediction (ML + API)](https://github.com/irfanahmed0019/churn-prediction-mlops)
-Compares logistic regression, random forest and gradient boosting with 5-fold cross-validation, then serves the best model through a tested FastAPI service with Docker and CI. Held-out test: ROC-AUC 0.929, PR-AUC 0.880, F1 0.847 on 1,000 customers.
-<br>`Python` `scikit-learn` `FastAPI` `Docker` `GitHub Actions`
-
-### [Retrieval Evaluation for RAG](https://github.com/irfanahmed0019/rag-retrieval-eval)
-Benchmarks BM25, dense embeddings (bge-small) and hybrid search on BEIR SciFact (5,183 abstracts, 300 labelled queries). Dense nDCG@10 0.722 vs BM25 0.652; plain rank fusion gave no extra gain. Includes bootstrap confidence intervals and a search API.
-<br>`Python` `Embeddings` `Information retrieval` `FastAPI`
-
-### [Prompt Injection Detector for LLM Apps](https://github.com/irfanahmed0019/prompt-injection-detector)
-Detects prompt-injection attempts before they reach an LLM. Compares TF-IDF models with 5-fold cross-validation, serves the best one through a tested FastAPI service with CI. Held-out test (116 prompts): F1 0.919, precision 1.00, recall 0.85, ROC-AUC 0.977. The README lists its limitations.
-<br>`Python` `scikit-learn` `FastAPI` `GitHub Actions`
 
 ### More work
 
@@ -69,10 +70,18 @@ Detects prompt-injection attempts before they reach an LLM. Compares TF-IDF mode
 
 ## Tech stack
 
+**ML & data** &nbsp;
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+
 **Languages** &nbsp;
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
 **Web** &nbsp;
@@ -81,9 +90,6 @@ Detects prompt-injection attempts before they reach an LLM. Compares TF-IDF mode
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-
-**ML** &nbsp;
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 
 ## Contact
 
