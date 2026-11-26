@@ -45,11 +45,11 @@ Online store with a product catalogue, size selection and a cart that sends orde
 
 <a href="https://bizzag.vercel.app/"><img src="https://github.com/user-attachments/assets/ec14ceed-5f8d-4c55-9373-efb421820acb" alt="Bizzag store" width="85%"></a>
 
-### [BuildMyLogic](https://github.com/irfanahmed0019/makemylogic_production) &nbsp;|&nbsp; [Live demo](https://buildmylogic.vercel.app)
+### BuildMyLogic &nbsp;|&nbsp; [Live demo](https://buildmylogic.vercel.app)
 A learning platform that takes beginners from theory to building real software, with an AI mentor that gives short hints. Won the Learning Impact Award at AI Conclave 2026.
 <br>`TypeScript` `React` `Supabase`
 
-<a href="https://github.com/irfanahmed0019/makemylogic_production"><img src="https://github.com/user-attachments/assets/2d0d8ef5-4c36-4812-af2a-cf8308849ab8" alt="BuildMyLogic" width="85%"></a>
+<a href="https://buildmylogic.vercel.app"><img src="https://github.com/user-attachments/assets/2d0d8ef5-4c36-4812-af2a-cf8308849ab8" alt="BuildMyLogic" width="85%"></a>
 
 ### [E-Commerce Store (CodeAlpha)](https://github.com/irfanahmed0019/CodeAlpha_SimpleEcommerceStore) &nbsp;|&nbsp; [Live demo](https://codealpha-store.vercel.app)
 Django store with Google sign-in, cart, checkout and order tracking.
